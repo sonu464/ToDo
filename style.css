@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#Todo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.t-d-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    padding: 10px 0px;
+    /* border-radius: 40px; */
+}
+
+.td-up {
+    /* background-color: yellow; */
+    color: white;
+}
+
+#Todo span {
+    width: 60%;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+}
+
+/* ---- Fill Item ---- */
+
+.td-fill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    padding: 10px 0px;
+    width: 80%;
+}
+
+#td-text {
+    width: 75%;
+    border: none;
+    outline: none;
+    padding: 15px;
+    font-size: 19px;
+}
+
+#span1 {
+    width: 10%;
+    background-color: white;
+    padding: 15px;
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid black;
+}
+
+#span1:hover {
+    background-color: red;
+    scale: 1.01;
+    color: white;
+    transition: all .3s;
+}
+
+/* ---- Todo List ---- */
+
+#td-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    /* padding: 30px 0px; */
+}
+
+#td-list ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0px;
+    flex-direction: column;
+}
+
+#td-list ul span {
+    cursor: pointer;
+    color: black;
+    width: 10%;
+    padding: 1px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    background-color: white;
+    position: absolute;
+    border: 1px solid black;
+    right: 5%;
+}
+
+#td-list ul li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 25px;
+    width: 80%;
+    padding: 15px 80px;
+    border: 1px solid black;
+    background-color: #ffb56a;
+    margin: 2px;
+}
