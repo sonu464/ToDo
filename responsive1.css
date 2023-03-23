@@ -1,9 +1,4 @@
 @media(max-width:550px) and (min-width:300px) {
-    body{
-        background-color: red;
-    }
-
-
     #td-list ul li {
         display: flex;
         align-items: center;
