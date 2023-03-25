@@ -114,13 +114,12 @@ body {
 }
 
 #td-list ul li {
-     display: flex;
+    display: flex;
     align-items: center;
     list-style: none;
     font-size: 25px;
     width: 80%;
     padding: 15px 80px;
-    background-color: #bdbdbd;
+    background-color: #e3e3e3;
     margin: 2px;
-
 }
